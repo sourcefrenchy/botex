@@ -1,7 +1,7 @@
 # botex
  A slack bot to convert expressions into LaTeX images. Really **alpha**, code is not perfect nor optimal at all.
-<!-- <img src="https://github.com/sourcefrenchy/botex/blob/master/s1.png?raw=true" width="80px"\> -->
-![Getting png back](https://github.com/sourcefrenchy/botex/blob/master/s2.png?raw=true|width=80px)
+<img src="https://github.com/sourcefrenchy/botex/blob/master/s1.png?raw=true" width="80px"\>
+![Getting png back|512x397, 20%](https://github.com/sourcefrenchy/botex/blob/master/s2.png?raw=true)
 
 # overview
 - Received expressions via "tex <expression>" sent to the bot
