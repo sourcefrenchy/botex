@@ -1,7 +1,7 @@
 # botex
  A slack bot to convert expressions into LaTeX images. Really **alpha**, code is ugly and not optimal at all.
 
-# overview
+# Overview
 - Received expressions via "tex <expression>" sent to the bot
 - Convert into LaTeX
 - Upload to s3 bucket protected by KMS
@@ -9,14 +9,14 @@
  
  <img src="https://github.com/sourcefrenchy/botex/blob/master/s1.png?raw=true" width="300" /> <img src="https://github.com/sourcefrenchy/botex/blob/master/s2.png?raw=true" width="300" />
  
-# todo
+# Todo
 - Expire old pictures from the s3 bucket (30days?)
  
-# configuration
+# Configuration
 - If using Docker, edit start.sh and insert your own SLACKTOKEN, AWS credentials information
 - Edit botex.py and update your AWS information (Bucket, region, KMS key-id)
 
-# editing/building new container
+# Editing/building new container
 - Git clone this project and edit Dockerfile based on your needs
 - To create a new container:
 
