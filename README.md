@@ -8,7 +8,7 @@
 - Generate a pre-signed URL for the user
  
 # todo
-- expire old pictures from the s3 bucket (30days?)
+- Expire old pictures from the s3 bucket (30days?)
  
 # configuration
 - If using Docker, edit start.sh and insert your own SLACKTOKEN, AWS credentials information
