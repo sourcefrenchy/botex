@@ -1,13 +1,13 @@
 # botex
  A slack bot to convert expressions into LaTeX images. Really **alpha**, code is not perfect nor optimal at all.
- 
-<img src="https://github.com/sourcefrenchy/botex/blob/master/s1.png?raw=true" width="300" /> <img src="https://github.com/sourcefrenchy/botex/blob/master/s2.png?raw=true" width="300" />
 
 # overview
 - Received expressions via "tex <expression>" sent to the bot
 - Convert into LaTeX
 - Upload to s3 bucket protected by KMS
 - Generate a pre-signed URL for the user
+ 
+ <img src="https://github.com/sourcefrenchy/botex/blob/master/s1.png?raw=true" width="300" /> <img src="https://github.com/sourcefrenchy/botex/blob/master/s2.png?raw=true" width="300" />
  
 # todo
 - Expire old pictures from the s3 bucket (30days?)
