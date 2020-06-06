@@ -32,7 +32,6 @@ packaging==20.4
 pbr==5.4.5
 pkgconfig==1.5.1
 pnglatex==1.1
-powerline-status===2.8.1.dev9999-git.b-c26938a9809bf8b55399bedec6f4e6300650f5ed-
 psutil==5.7.0
 pycparser==2.20
 pylint==2.5.2
@@ -56,3 +55,4 @@ virtualfish==2.2.3
 wrapt==1.12.1
 yarl==1.4.2
 zipp==3.1.0
+boto3
