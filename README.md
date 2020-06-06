@@ -7,6 +7,9 @@
 - Upload to s3 bucket protected by KMS
 - Generate a pre-signed URL for the user
  
+# todo
+- expire old pictures from the s3 bucket (30days?)
+ 
 # configuration
 - If using Docker, edit start.sh and insert your own SLACKTOKEN, AWS credentials information
 - Edit botex.py and update your AWS information (Bucket, region, KMS key-id)
