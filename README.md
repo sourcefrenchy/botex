@@ -1,5 +1,6 @@
 # botex
  A slack bot to convert expressions into LaTeX images. Really **alpha**, code is not perfect nor optimal at all.
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
 # overview
 - Received expressions via "tex <expression>" sent to the bot
