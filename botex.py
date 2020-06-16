@@ -1,6 +1,6 @@
-#!/Users/jma/.virtualenvs/botex/bin/python
-# *** botex *** - render latex expressions into png and serve presigned url to it back to the user
-# jeanmichel.amblat@gmail.com
+#!/usr/bin/env python
+# *** botex *** - renders latex expressions into png and serve presigned url to it back to the user
+# jeanmichel.amblat@g/mail.com
 #
 
 import os, sys
@@ -18,8 +18,8 @@ from botocore.client import Config
 import botocore
 
 DEBUG = False
-AWS_S3_BUCKET = "botexjmatestingforfun"
-AWS_S3_KEYID = "df05d3d3-c4a6-4d62-9f62-b540a3ca1150"
+AWS_S3_BUCKET = "botexjmaforfun" # changeme
+AWS_S3_KEYID = "df06d3d3-c4a6-4d62-9f62-b520a3ca1150" # changeme
 AWS_REGION = "us-east-1"
 
 def file2s3_getlink(filename, bucket=AWS_S3_BUCKET, object_name=None):
