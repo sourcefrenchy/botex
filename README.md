@@ -11,6 +11,7 @@
  
 # Todo
 - Expire old pictures from the s3 bucket (30days?)
+- Delete old pictures from the docker container
  
 # Configuration
 - If using Docker, edit start.sh and insert your own SLACKTOKEN, AWS credentials information
